@@ -4,9 +4,14 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../springcloudtest/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloudtest/eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloudtest/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloudtest/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloudtest/config-client/pom.xml" />
       </list>
     </option>
   </component>

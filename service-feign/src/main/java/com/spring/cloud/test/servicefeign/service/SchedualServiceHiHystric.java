@@ -7,6 +7,6 @@ public class SchedualServiceHiHystric  implements FeignClientService {
 
     @Override
     public String helloService(String name) {
-        return "hi,"+name+",sorry,error!";
+        return "hi,"+name+",sorry,error!-->service-feign";
     }
 }

@@ -16,7 +16,7 @@ public class HelloService {
     }
 
     public String helloError(String name) {
-        return "hi,"+name+",sorry,error!";
+        return "hi,"+name+",sorry,error!--->service-ribbon";
     }
 }
 
