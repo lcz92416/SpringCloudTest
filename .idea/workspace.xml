@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81cc9572-65fd-4a0f-a1b5-7ce199f26d91" name="Default" comment="config配置">
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/src/main/java/com/spring/cloud/test/busclient/BusClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/src/main/java/com/spring/cloud/test/busclient/web/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloudtest/bus-client/src/test/java/com/spring/cloud/test/busclient/BusClientApplicationTests.java" afterDir="false" />
+    <list default="true" id="81cc9572-65fd-4a0f-a1b5-7ce199f26d91" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../springcloudtest/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloudtest/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudtest/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloudtest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloudtest/config-client/src/main/java/com/spring/cloud/test/configclient/web/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/config-client/src/main/java/com/spring/cloud/test/configclient/web/ConfigClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloudtest/config-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springcloudtest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloudtest/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,7 +19,9 @@
     <ignored path="$PROJECT_DIR$/service-zuul/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
     <ignored path="$PROJECT_DIR$/config-client/target/" />
-    <ignored path="$PROJECT_DIR$/../springcloudtest/bus-client/target/" />
+    <ignored path="$PROJECT_DIR$/bus-client/target/" />
+    <ignored path="$PROJECT_DIR$/server-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/client-zipkin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,82 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/bootstrap.properties">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-client/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigClientController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/config-client/src/main/java/com/spring/cloud/test/configclient/web/ConfigClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="3" column="66" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/config-server/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigClientController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/src/main/java/com/spring/cloud/test/busclient/web/ConfigClientController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BusClientApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/src/main/java/com/spring/cloud/test/busclient/BusClientApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -154,17 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/spring/cloud/test/servicefeign/web/HelloController.java" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/spring/cloud/test/web/HelloController.java" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/spring/cloud/test/servicefeign/ServiceFeignApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/spring/cloud/test/serviceribbon/service/HelloService.java" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/spring/cloud/test/servicefeign/service/FeignClientService.java" />
-        <option value="$PROJECT_DIR$/service-feign/src/main/java/com/spring/cloud/test/servicefeign/service/SchedualServiceHiHystric.java" />
-        <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
-        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
-        <option value="$PROJECT_DIR$/service-ribbon/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-feign/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-ribbon/src/main/java/com/spring/cloud/test/serviceribbon/ServiceRibbonApplication.java" />
         <option value="$PROJECT_DIR$/service-feign/src/main/java/com/spring/cloud/test/servicefeign/ServiceFeignApplication.java" />
@@ -197,14 +114,25 @@
         <option value="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config-client/src/main/java/com/spring/cloud/test/configclient/web/ConfigClientController.java" />
         <option value="$PROJECT_DIR$/config-client/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/../springcloudtest/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloudtest/bus-client/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../springcloudtest/bus-client/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloudtest/config-client/src/main/java/com/spring/cloud/test/configclient/web/ConfigClientController.java" />
-        <option value="$PROJECT_DIR$/../springcloudtest/config-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/../springcloudtest/bus-client/src/main/java/com/spring/cloud/test/busclient/BusClientApplication.java" />
-        <option value="$PROJECT_DIR$/../springcloudtest/bus-client/src/main/java/com/spring/cloud/test/busclient/web/ConfigClientController.java" />
-        <option value="$PROJECT_DIR$/../springcloudtest/bus-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/bus-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bus-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/src/main/java/com/spring/cloud/test/configclient/web/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/config-server/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/bus-client/src/main/java/com/spring/cloud/test/busclient/BusClientApplication.java" />
+        <option value="$PROJECT_DIR$/bus-client/src/main/java/com/spring/cloud/test/busclient/web/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/bus-client/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/server-zipkin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/server-zipkin/src/main/java/com/spring/cloud/test/serverzipkin/web/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/client-zipkin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/client-zipkin/src/main/java/com/spring/cloud/test/clientzipkin/web/ServerZipkinController.java" />
+        <option value="$PROJECT_DIR$/client-zipkin/src/main/java/com/spring/cloud/test/clientzipkin/web/ClientZipkinController.java" />
+        <option value="$PROJECT_DIR$/server-zipkin/src/main/java/com/spring/cloud/test/serverzipkin/web/ServerZipkinController.java" />
+        <option value="$PROJECT_DIR$/../springcloudtest/config-server/src/main/resources/application-peer1.yml" />
+        <option value="$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application-peer1.yml" />
+        <option value="$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application-peer2.yml" />
+        <option value="$PROJECT_DIR$/../springcloudtest/eureka-client/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -229,7 +157,17 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="eureka-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -246,8 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,212 +196,6 @@
             <path>
               <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="busclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="busclient" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="bus-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="configclient" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="configclient" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="config-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
               <item name="config-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -490,13 +222,60 @@
             <path>
               <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
-              <item name="service-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloudtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloudtest" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -507,7 +286,7 @@
     <property name="SearchEverywhereHistoryKey" value="ml&#9;FILE&#9;file://F:/springcloudtest/service-zuul/src/main/resources/application.yml&#10;yml&#9;FILE&#9;file://F:/springcloudtest/service-zuul/src/main/resources/application.yml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../////IDEAHomeWork/ribbon" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..//////IDEAHomeWork/ribbon" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -516,11 +295,16 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\springcloudtest\eureka-server\src\main\resources" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.spring.cloud.test.servicefeign" />
       <recent name="com.spring.cloud.test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring.cloud.test.clientzipkin.web" />
+      <recent name="com.spring.cloud.test.serverzipkin.web" />
       <recent name="com.spring.cloud.test.busclient.web" />
       <recent name="com.spring.cloud.test.configserver.web" />
       <recent name="com.spring.cloud.test.eurekaclient.web" />
@@ -544,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BusClient">
+  <component name="RunManager" selected="Spring Boot.EurekaClient">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -569,6 +353,11 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.cloud.test.busclient.BusClientApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
+    <configuration name="ClientZipkin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.cloud.test.clientzipkin.ClientZipkinApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
     <configuration name="ConfigClient" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.cloud.test.configclient.ConfigClientApplication" />
@@ -584,9 +373,14 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.cloud.test.eurekaclient.EurekaClientApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
-    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.cloud.test.eurekaserver.EurekaServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="ServerZipkin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="server-zipkin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.cloud.test.serverzipkin.ServerZipkinApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
     </configuration>
     <configuration name="ServiceFeign" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -635,6 +429,8 @@
       <item itemvalue="Spring Boot.ConfigClient" />
       <item itemvalue="Spring Boot.ConfigServer" />
       <item itemvalue="Spring Boot.BusClient" />
+      <item itemvalue="Spring Boot.ServerZipkin" />
+      <item itemvalue="Spring Boot.ClientZipkin" />
     </list>
     <recent_temporary>
       <list>
@@ -659,7 +455,8 @@
       <workItem from="1540176927193" duration="12494000" />
       <workItem from="1540257058990" duration="8256000" />
       <workItem from="1540279027103" duration="4190000" />
-      <workItem from="1540350132069" duration="5376000" />
+      <workItem from="1540350132069" duration="9322000" />
+      <workItem from="1540782077703" duration="6916000" />
     </task>
     <task id="LOCAL-00001" summary="ribbon &amp; feign &amp; 断路器 &amp; 仪表盘">
       <created>1539937278435</created>
@@ -710,19 +507,26 @@
       <option name="project" value="LOCAL" />
       <updated>1540365244069</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Spring Cloud Bus">
+      <created>1540369536292</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540369536292</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49936000" />
+    <option name="totallyTimeSpent" value="60798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005365" side_tool="true" weight="0.4412094" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.14860515" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50107294" side_tool="true" weight="0.5643897" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.22156653" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -737,14 +541,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.431131" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946353" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49892703" visible="true" weight="0.6226204" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2725322" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27628756" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -753,10 +556,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -766,7 +580,8 @@
     <MESSAGE value="zuul &amp; config" />
     <MESSAGE value="config配置" />
     <MESSAGE value="bus" />
-    <option name="LAST_COMMIT_MESSAGE" value="bus" />
+    <MESSAGE value="Spring Cloud Bus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Bus" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -783,39 +598,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/serice-feign/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/service-feign/src/main/java/com/spring/cloud/test/service/HelloService.java" />
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-netflix-ribbon/2.0.0.RELEASE/spring-cloud-starter-netflix-ribbon-2.0.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/service-ribbon/src/main/java/com/spring/cloud/test/serviceribbon/web/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/service-feign/src/main/java/com/spring/cloud/test/servicefeign/web/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/service-feign/src/main/java/com/spring/cloud/test/servicefeign/ServiceFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/service-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-704">
-          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.1/zuul-core-1.3.1.jar!/com/netflix/zuul/ZuulFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -889,9 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-client/src/main/java/com/spring/cloud/test/eurekaclient/web/EurekaClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -948,20 +727,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springcloudtest/config-server/src/main/java/com/spring/cloud/test/configserver/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,36 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../springcloudtest/config-client/src/main/java/com/spring/cloud/test/configclient/web/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,24 +780,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/config-server/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -1071,7 +801,101 @@
     <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/src/main/java/com/spring/cloud/test/busclient/web/ConfigClientController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/bus-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/server-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/config-client/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/server-zipkin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/client-zipkin/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/client-zipkin/src/main/java/com/spring/cloud/test/clientzipkin/web/ClientZipkinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/server-zipkin/src/main/java/com/spring/cloud/test/serverzipkin/web/ServerZipkinController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/config-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application-peer2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application-peer1.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../springcloudtest/eureka-client/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="66" lean-forward="true" selection-start-line="3" selection-start-column="66" selection-end-line="3" selection-end-column="66" />
         </state>
       </provider>
     </entry>

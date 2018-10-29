@@ -10,8 +10,10 @@
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloudtest/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/../springcloudtest/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloudtest/server-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloudtest/client-zipkin/pom.xml" />
       </list>
     </option>
   </component>
